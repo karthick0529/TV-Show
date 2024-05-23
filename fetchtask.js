@@ -16,7 +16,9 @@ function displayResults(shows) {
   let main = document.querySelector("#mainbody");
   main.innerHTML = "";
 
-  shows.forEach((tvshow) => {
+  // shows.forEach((tvshow) => {
+  if (shows.length > 0) {
+    let tvshow = shows[0]; 
     let card = document.createElement("div");
     card.className = "centerbody";
     card.innerHTML = `
@@ -50,5 +52,5 @@ function displayResults(shows) {
       </div>
     `;
     main.appendChild(card);
-  });
+  };
 }
