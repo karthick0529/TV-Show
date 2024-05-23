@@ -1,0 +1,26 @@
+.trend {
+  text-align: center;
+  background-color: rgb(200, 68, 95);
+  color: white;
+}
+
+body {
+  background-color: rgba(181, 152, 207, 0.878);
+}
+.popular {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.main {
+  color: white;
+  font-size: 28px;
+}
+
+#mainbody {
+  height: 100vh;
+  width: 100vw;
+}
+.centerbody {
+  display: flex;
+}
